@@ -77,5 +77,6 @@ div img {
 @media only screen and (min-width: 768px) {
   .col-xl-3 {
     width: 20%;
+    background-color: purple;
   }
 }
