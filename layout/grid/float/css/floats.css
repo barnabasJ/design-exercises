@@ -32,6 +32,10 @@ div img {
 
 /* grid system -- mobile first! */
 /* clear at the end of a row */
+.row {
+  width: 100%;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -41,7 +45,9 @@ div img {
 [class*="col-"] {
   margin-left: 4%;
   margin-right: 4%;
+  min-height: 1px;
   width: 92%;
+  float: none;
   background-color: yellow;
 }
 
